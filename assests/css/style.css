@@ -47,7 +47,7 @@ nav a {
 }
 nav a:hover {
   color: rgba(255, 255, 255);
-  border-bottom: 2px solid rgb(71, 20, 3);
+  border-bottom: 1px solid rgb(71, 20, 3);
   background-color: rgba(35, 19, 6, 0.959);
   width: 100%;
   transition: 1s ease;
@@ -58,7 +58,7 @@ nav a:hover {
   font-size: 90px;
 }
 span {
-  color: rgba(96, 38, 4, 0.916);
+  color: rgba(78, 30, 2, 0.916);
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -80,18 +80,16 @@ span {
 }
 
 section {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
 }
 .p-artcile {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 footer {
   margin: 20px auto;
 }
 .img-footer {
   display: flex;
-  justify-items: left;
 }
