@@ -21,6 +21,7 @@ nav ul {
   padding: 50px;
 }
 nav li {
+  height: 50px;
   float: left;
   width: 20%;
   font-size: 23px;
@@ -36,6 +37,7 @@ nav {
   height: 100%;
   height: 23px auto;
   margin: 0px auto 40px auto;
+
   /* background-color: white; */
   /* position: sticky; */
   /* top: 0px; */
@@ -45,20 +47,19 @@ nav {
   /* border: 1px solid red; */
 }
 nav a {
-  display: block;
   width: 100%;
   text-decoration: none;
   color: black;
   border-bottom: 1px solid transparent;
   height: 100%;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 nav a:hover {
   color: rgba(255, 255, 255);
-  border-bottom: 1px solid rgb(71, 20, 3);
   background-color: rgba(35, 19, 6, 0.959);
-
-  /* transition: 1s ease; */
+  transition: 1s ease;
 }
 .head-site {
   text-align: center;
@@ -74,6 +75,7 @@ span {
   justify-content: center;
   flex-direction: column;
   background-color: gray;
+  text-transform: uppercase;
 }
 
 .details-tes {
@@ -97,6 +99,7 @@ h2 {
   margin-left: 80%;
 }
 section {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -135,7 +138,7 @@ h3 {
 }
 .title-service {
   color: #592a2e;
-  font-size: 15px;
+  font-size: 25px;
 }
 .btn-read {
   background-color: #564d48;
@@ -156,6 +159,8 @@ h3 {
 }
 .btn-read:hover {
   cursor: pointer;
+  background-color: #592a2e;
+  transition: 1s ease;
 }
 .article-abouts {
   margin: 35px;
@@ -164,7 +169,7 @@ h3 {
 }
 .title-about {
   color: #592a2e;
-  font-size: 15px;
+  font-size: 25px;
 }
 .container-article {
   display: flex;
@@ -188,23 +193,26 @@ h3 {
   font-weight: bold;
 }
 .line-footer {
+  margin: 2px;
   width: 100%;
   color: black;
 }
 footer {
-  margin: 0 auto;
+  margin: 5px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 .nom-design {
-  display: table-cell;
-  width: 250px;
-  height: 200px;
+  display: flex;
+  width: 150px;
+  height: 150px;
   padding: 10px;
-  vertical-align: middle;
+  flex-flow: column;
+  justify-content: center;
 }
 .img-reseaux {
   display: flex;
-  margin: 0 auto;
-  padding: 23px;
-  align-content: center;
-  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
 }
