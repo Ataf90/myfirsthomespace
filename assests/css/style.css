@@ -38,7 +38,7 @@ nav {
   margin: 0px auto 40px auto;
   /* background-color: white; */
   /* position: sticky; */
-  top: 0px;
+  /* top: 0px; */
   /* border-radius: 13px; */
   /* opacity: 0.6; */
 
@@ -76,11 +76,10 @@ span {
   background-color: gray;
 }
 
-section {
-}
-.p-article {
-  margin: 5%;
-  color: white;
+.details-tes {
+  color: black;
+  display: flex;
+  flex-direction: row;
 }
 
 .img-box {
@@ -102,19 +101,110 @@ section {
   flex-direction: row;
   justify-content: space-evenly;
 }
-article {
+.p-article {
+  color: white;
+  display: flex;
+  margin: 23px;
+}
+.article-tes {
   margin: 32px;
   width: 30%;
   color: black;
 }
+
 h3 {
   margin: 40px;
   font-size: 27px;
 }
-.btn-read {
+
+.article-service {
+  margin: 32px;
   width: 30%;
-  height: 100%;
+  color: black;
+}
+.service-more {
+  margin: 32px;
+  width: 30%;
+  color: #592a2e;
+  /* font-size: x-large; */
+  /* font-weight: bold; */
+}
+.h3-service {
+  color: #592a2e;
+  font-size: 15px;
+}
+.title-service {
+  color: #592a2e;
+  font-size: 15px;
+}
+.btn-read {
   background-color: #564d48;
   color: white;
+  font-size: 19px;
+  border-radius: 10spx;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 23px;
+}
+
+.space-between {
+  margin: 0 auto;
+  padding: 2px;
+  justify-content: space-evenly;
+}
+.btn-read:hover {
+  cursor: pointer;
+}
+.article-abouts {
+  margin: 35px;
+  width: 30%;
+  color: #0d0c0c;
+}
+.title-about {
+  color: #592a2e;
+  font-size: 15px;
+}
+.container-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.details-tes {
+  margin: 13px auto;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.details-service {
+  margin: 13px auto;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.details-aboutus {
+  padding: 20px;
+  margin: 9px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.line-footer {
+  width: 100%;
+  color: black;
+}
+footer {
+  margin: 0 auto;
+}
+.nom-design {
+  display: table-cell;
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+}
+.img-reseaux {
+  display: flex;
+  margin: 0 auto;
   padding: 23px;
+  align-content: center;
+  justify-content: flex-end;
 }
