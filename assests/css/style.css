@@ -2,17 +2,15 @@
   margin: 0px;
   padding: 0px;
   font-family: "Quicksand", sans-serif;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 body {
-  margin-right: 20%;
-  margin-left: 20%;
-  color: gray;
-  background-color: rgb(122, 96, 96);
+  background-color: #736b65;
 }
 .home {
-  width: 1024px;
+  width: 50%;
+  margin: auto;
   background-color: white;
 }
 nav ul {
@@ -21,11 +19,17 @@ nav ul {
   padding: 50px;
 }
 nav li {
-  height: 50px;
+  height: 100px;
   float: left;
   width: 20%;
   font-size: 23px;
   text-transform: uppercase;
+}
+li a {
+  width: 2rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 /* nav ul::after {
   content: "";
@@ -46,15 +50,15 @@ nav {
 
   /* border: 1px solid red; */
 }
+
 nav a {
-  width: 100%;
   text-decoration: none;
   color: black;
-  border-bottom: 1px solid transparent;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100px;
 }
 nav a:hover {
   color: rgba(255, 255, 255);
@@ -65,8 +69,11 @@ nav a:hover {
   text-align: center;
   font-size: 90px;
 }
-span {
-  color: rgba(78, 30, 2, 0.916);
+h1 span {
+  color: #592a2e;
+}
+.bg-color {
+  width: 100%;
 }
 
 .box {
@@ -138,7 +145,7 @@ h3 {
 }
 .title-service {
   color: #592a2e;
-  font-size: 25px;
+  padding: 0;
 }
 .btn-read {
   background-color: #564d48;
@@ -175,6 +182,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 19px;
 }
 .details-tes {
   margin: 13px auto;
@@ -182,7 +190,8 @@ h3 {
   font-weight: bold;
 }
 .details-service {
-  margin: 13px auto;
+  padding: 0;
+  margin: 13px;
   flex-wrap: wrap;
   font-weight: bold;
 }
@@ -192,27 +201,24 @@ h3 {
   flex-wrap: wrap;
   font-weight: bold;
 }
-.line-footer {
-  margin: 2px;
-  width: 100%;
-  color: black;
-}
+
 footer {
   margin: 5px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 .nom-design {
   display: flex;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
+  height: 70px;
   flex-flow: column;
   justify-content: center;
 }
 .img-reseaux {
   display: flex;
   align-items: center;
-  padding: 50px;
+  /* padding: 50px; */
+}
+@media screen and (min-width: 768) {
 }
