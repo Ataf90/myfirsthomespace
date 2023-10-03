@@ -5,7 +5,6 @@
 }
 /*HEADERS*/
 
-
 nav ul {
   list-style-type: none;
   margin: 20px auto;
@@ -43,7 +42,6 @@ nav a:hover {
   transition: 1s ease;
 }
 
-
 /*body*/
 body {
   background-color: #736b65;
@@ -62,7 +60,6 @@ h1 span {
 }
 .bg-color {
   width: 100%;
-  border: solid red;
 }
 /*box*/
 
@@ -72,12 +69,57 @@ h1 span {
   flex-wrap: wrap;
   background-color: #564d48;
 }
+.box-2 {
+  display: flex;
+}
+.boite-plus {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+h4 {
+  color: #592a2e;
+  margin-bottom: 20px;
+}
+.box-tes,
+span {
+  font-size: 15px;
+  color: #592a2e;
+}
+.box-service p {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.box-service button {
+  width: 30%;
+  height: 40px;
+  background-color: #592a2e;
+  color: white;
+}
+.box-service button:hover {
+  cursor: pointer;
+  background-color: #564d48;
+}
 
 section {
- display: flex;
- justify-content: space-around;
- border: solid green;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid green; */
 }
+section h3 {
+  margin: 30px;
+}
+section ul {
+  list-style-type: none;
+  padding: 1%;
+  text-align: left;
+}
+section ul,
+section li {
+  margin-bottom: 23px;
+}
+
 .article-tes {
   margin: 32px;
   width: 50%;
@@ -85,13 +127,6 @@ section {
 }
 
 .img-box {
-  width: 100%;
-}
-.boite-plus
-{
-  display: flex;
-  justify-content: flex-end;
-  border:solid red ;
   width: 100%;
 }
 
