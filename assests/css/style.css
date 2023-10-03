@@ -9,10 +9,11 @@ nav ul {
   list-style-type: none;
   margin: 20px auto;
   padding: 50px;
+  display: flex;
 }
 nav li {
   height: 100px;
-  float: left;
+  /* float: left; */
   width: 20%;
   font-size: 20px;
   text-transform: uppercase;
@@ -262,4 +263,6 @@ i:hover {
     justify-content: center;
     font-size: 19px;
   }
+}
+@media source() {
 }
